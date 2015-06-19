@@ -26,3 +26,5 @@ UI thread’i võrgu operatsioonidega blokeerida ei tohi.
 
 # Puudused
 Võrgukood on implementeeritud kasutades UdpClient klassi, mis tähendab, et poolikud ja vigased paketid jäetakse kõrvale ning pole oma Udp protokolli loodud. Etteantud paketi struktuur asub paketi saatmisel Udp paketi data väljal.
+
+Teine puudus on, et solutionit käivitades ei tule gitist täielikult konfigureeritud solution kuna osa infot on failides, mis on ignore'itud gitignore poolt ja samas peavad ka olema eemaldatud, et süsteem töötaks. On olemas mingisuguseid workarounde.
